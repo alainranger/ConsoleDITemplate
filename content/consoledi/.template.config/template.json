@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Alain Ranger",
+    "classifications": [
+        "Common",
+        "Console"
+    ],
+    "identity": "ExampleTemplate.ConsoleDI",
+    "name": "Application Console DI",
+    "shortName": "consoledi",
+    "sourceName": "consoledi",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+}
