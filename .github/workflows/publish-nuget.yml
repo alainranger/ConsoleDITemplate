@@ -1,6 +1,7 @@
 name: Publish NuGet Package
 
 on:
+  workflow_dispatch: # Permet le déclenchement manuel pour tester
   push:
     # Le pipeline se déclenche uniquement lorsqu'un tag de version est poussé (ex: v1.0.0)
     tags:
