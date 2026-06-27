@@ -48,7 +48,7 @@ jobs:
     # 7. Création du package NuGet (.nupkg)
     - name: Pack NuGet Package
       run: |
-        dotnet pack ./Company.ConsoleTemplate/Company.ConsoleTemplate.csproj \
+        dotnet pack -c Release \
           --configuration Release \
           --no-build \
           --output ./dist \
