@@ -48,8 +48,7 @@ jobs:
     # 7. Création du package NuGet (.nupkg)
     - name: Pack NuGet Package
       run: |
-        dotnet pack -c Release \
-          --configuration Release \
+        dotnet pack --configuration Release \
           --no-build \
           --output ./dist \
           -p:PackageVersion=${{ env.VERSION }}
